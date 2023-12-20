@@ -1,0 +1,72 @@
+/* Ajoutez ces styles à la fin de votre fichier style.css pour formations.html */
+
+body {
+    background-color: black; /* Fond noir pour tout le corps de la page */
+    color: white; /* Texte blanc pour tout le corps de la page */
+    font-family: Arial, sans-serif; /* Utilisation de la police Arial */
+  }
+  
+  .right-side {
+    text-align: left; /* Aligne le texte à gauche dans la colonne droite */
+  }
+  
+  .right-side .section {
+    margin: 0 auto; /* Centre chaque section de formation */
+    max-width: 600px; /* Limite la largeur des sections */
+  }
+  
+  .right-side .formation {
+    margin: 0 auto 20px; /* Centre chaque formation avec un espacement en bas */
+    max-width: 600px; /* Limite la largeur des formations */
+    display: flex; /* Utilisation de Flexbox pour aligner l'image et le texte */
+    align-items: center; /* Centre verticalement le contenu de chaque formation */
+  }
+  
+  .right-side .formation img {
+    width: 100px; /* Taille fixe pour les images (ajustez selon vos besoins) */
+    height: auto;
+    margin-right: 20px; /* Espacement entre l'image et le texte */
+  }
+  
+  .right-side .formation h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .right-side .formation p {
+    margin-bottom: 10px;
+  }
+
+  /* Styles pour le pied de page */
+  footer {
+    text-align: center;
+    margin-top: 20px; /* Espacement entre le contenu principal et le pied de page */
+  }
+  /* Nouveaux styles pour les formations avec bordure */
+  .right-side .formation {
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 auto 20px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Changé la direction de la flexbox pour mieux aligner le contenu */
+  }
+  
+  .right-side .formation img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px; /* Espacement entre l'image et le titre de la formation */
+  }
+  
+  
+  .right-side .formation h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px; /* Augmenté l'espacement entre le titre et la date */
+  }
+  
+  .right-side .formation p {
+    margin-bottom: 10px;
+  }
+  
